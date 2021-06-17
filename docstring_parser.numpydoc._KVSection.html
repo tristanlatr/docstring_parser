@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>docstring_parser.numpydoc._KVSection : API documentation</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header navbar-brand">
+          <a href="https://github.com/tristanlatr/docstring_parser">docstring_parser</a>
+          <a href="index.html">API Documentation</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1 class="class private"><code><code><a href="docstring_parser.html">docstring_parser</a></code>.<code><a href="docstring_parser.numpydoc.html">numpydoc</a></code>.<code><a href="docstring_parser.numpydoc._KVSection.html">_KVSection</a></code></code></h1>
+        <div id="showPrivate">
+          <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+        </div>
+      </div>
+
+      <div class="categoryHeader">
+        class documentation
+      </div>
+
+      <div class="extrasDocstring">
+        <p><code><span class="py-keyword">class</span> <span class="py-defname">_KVSection</span>(<a href="docstring_parser.numpydoc.Section.html" title="docstring_parser.numpydoc.Section">Section</a>): <a href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L81">(source)</a></code></p><p>Known subclasses: <code><a href="docstring_parser.numpydoc.ParamSection.html">docstring_parser.numpydoc.ParamSection</a></code>, <code><a href="docstring_parser.numpydoc.RaisesSection.html">docstring_parser.numpydoc.RaisesSection</a></code>, <code><a href="docstring_parser.numpydoc.ReturnsSection.html">docstring_parser.numpydoc.ReturnsSection</a></code></p>
+        <p><a href="classIndex.html#docstring_parser.numpydoc._KVSection">View In Hierarchy</a></p>
+      </div>
+
+      <div class="moduleDocstring">
+        <div><p>Base parser for numpydoc sections with key-value syntax.</p>
+<dl class="rst-docutils">
+<dt>E.g. sections that look like this:</dt>
+<dd><dl class="rst-first rst-last rst-docutils">
+<dt>key</dt>
+<dd>value</dd>
+<dt>key2 <span class="classifier-delimiter">:</span> <span class="rst-classifier">type</span></dt>
+<dd>values can also span...
+... multiple lines</dd>
+</dl>
+</dd>
+</dl>
+</div>
+      </div>
+
+      <div id="splitTables">
+        <table class="children sortable" id="id20">
+  
+  <tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#parse">parse</a></code></td>
+    <td><span>Parse <tt class="rst-docutils literal">DocstringMeta</tt> objects from the body of this section.</span></td>
+  </tr><tr class="method private">
+    
+    <td>Method</td>
+    <td><code><a href="#_parse_item">_parse_item</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+        
+          <p class="inheritedFrom">
+            Inherited from <code><a href="docstring_parser.numpydoc.Section.html">Section</a></code>:
+          </p>
+          <table class="children sortable" id="id21">
+  
+  <tr class="basemethod">
+    
+    <td>Method</td>
+    <td><code><a href="docstring_parser.numpydoc.Section.html#__init__">__init__</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="baseinstancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="docstring_parser.numpydoc.Section.html#title">title</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="baseinstancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="docstring_parser.numpydoc.Section.html#key">key</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="baseproperty">
+    
+    <td>Property</td>
+    <td><code><a href="docstring_parser.numpydoc.Section.html#title_pattern">title_pattern</a></code></td>
+    <td><span>Regular expression pattern matching this section's header.</span></td>
+  </tr>
+</table>
+          
+
+          
+      </div>
+
+      <div id="childList">
+
+        <div class="basemethod private">
+  
+  <a name="docstring_parser.numpydoc._KVSection._parse_item">
+    
+  </a>
+  <a name="_parse_item">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_parse_item</span>(self, key, value):
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L92">
+      
+      (source)
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    <div class="interfaceinfo">overridden in <code><a href="docstring_parser.numpydoc.ParamSection.html">docstring_parser.numpydoc.ParamSection</a></code>, <code><a href="docstring_parser.numpydoc.RaisesSection.html">docstring_parser.numpydoc.RaisesSection</a></code>, <code><a href="docstring_parser.numpydoc.ReturnsSection.html">docstring_parser.numpydoc.ReturnsSection</a></code></div>
+    
+    <div><p class="undocumented">Undocumented</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName">Parameters</td><td class="fieldArg">key</td><td><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>)</td></tr><tr><td></td><td class="fieldArg">value</td><td><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>)</td></tr><tr class="fieldStart"><td class="fieldName">Returns</td><td colspan="2"><span class="undocumented">Undocumented</span> (type: <code>DocstringMeta</code>)</td></tr></table></div>
+  </div>
+</div><div class="basemethod">
+  
+  <a name="docstring_parser.numpydoc._KVSection.parse">
+    
+  </a>
+  <a name="parse">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">parse</span>(self, text):
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L95">
+      
+      (source)
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    <div class="interfaceinfo">overrides <code><a href="docstring_parser.numpydoc.Section.html#parse">docstring_parser.numpydoc.Section.parse</a></code></div>
+    
+    <div>Parse <tt class="rst-docutils literal">DocstringMeta</tt> objects from the body of this section.<table class="fieldTable"><tr class="fieldStart"><td class="fieldName">Parameters</td><td class="fieldArg">text</td><td>section body text. Should be cleaned with
+<tt class="rst-docutils literal">inspect.cleandoc</tt> before parsing. (type: <code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>)</td></tr><tr class="fieldStart"><td class="fieldName">Returns</td><td colspan="2"><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/typing.html#typing.Iterable">T.Iterable</a>[DocstringMeta]</code>)</td></tr></table></div>
+  </div>
+</div>
+
+      </div>
+      <address>
+        <a href="index.html">API Documentation</a> for <a href="https://github.com/tristanlatr/docstring_parser">docstring_parser</a>, generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a> 21.2.2 at 2021-06-17 17:25:10.
+      </address>
+
+    </div>
+
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>

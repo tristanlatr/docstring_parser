@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>docstring_parser.numpydoc : API documentation</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header navbar-brand">
+          <a href="https://github.com/tristanlatr/docstring_parser">docstring_parser</a>
+          <a href="index.html">API Documentation</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1 class="module"><code><code><a href="docstring_parser.html">docstring_parser</a></code>.<code><a href="docstring_parser.numpydoc.html">numpydoc</a></code></code></h1>
+        <div id="showPrivate">
+          <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+        </div>
+      </div>
+
+      <div class="categoryHeader">
+        module documentation
+      </div>
+
+      <div class="extrasDocstring">
+        <a href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py">(source)</a>
+        <p></p>
+      </div>
+
+      <div class="moduleDocstring">
+        <div>Numpydoc-style docstring parsing.<table class="fieldTable"><tr class="fieldStart"><td class="fieldName">See Also</td><td colspan="2"><a class="rst-reference external" href="https://numpydoc.readthedocs.io/en/latest/format.html" target="_top">https://numpydoc.readthedocs.io/en/latest/format.html</a></td></tr></table></div>
+      </div>
+
+      <div id="splitTables">
+        <table class="children sortable" id="id18">
+  
+  <tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#KV_REGEX">KV_REGEX</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#PARAM_KEY_REGEX">PARAM_KEY_REGEX</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#PARAM_OPTIONAL_REGEX">PARAM_OPTIONAL_REGEX</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#PARAM_DEFAULT_REGEX">PARAM_DEFAULT_REGEX</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#RETURN_KEY_REGEX">RETURN_KEY_REGEX</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.Section.html">Section</a></code></td>
+    <td><span>Numpydoc section parser.</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.ParamSection.html">ParamSection</a></code></td>
+    <td><span>Parser for numpydoc parameter sections.</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.RaisesSection.html">RaisesSection</a></code></td>
+    <td><span>Parser for numpydoc raises sections.</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.ReturnsSection.html">ReturnsSection</a></code></td>
+    <td><span>Parser for numpydoc raises sections.</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.YieldsSection.html">YieldsSection</a></code></td>
+    <td><span>Parser for numpydoc generator "yields" sections.</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.DeprecationSection.html">DeprecationSection</a></code></td>
+    <td><span>Parser for numpydoc "deprecation warning" sections.</span></td>
+  </tr><tr class="variable">
+    
+    <td>Variable</td>
+    <td><code><a href="#DEFAULT_SECTIONS">DEFAULT_SECTIONS</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc.NumpydocParser.html">NumpydocParser</a></code></td>
+    <td><span class="undocumented">No class docstring; 0/2 instance variables, 3/4 methods documented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#parse">parse</a></code></td>
+    <td><span>Parse the numpy-style docstring into its components.</span></td>
+  </tr><tr class="function private">
+    
+    <td>Function</td>
+    <td><code><a href="#_pairwise">_pairwise</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function private">
+    
+    <td>Function</td>
+    <td><code><a href="#_clean_str">_clean_str</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="class private">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc._KVSection.html">_KVSection</a></code></td>
+    <td><span>Base parser for numpydoc sections with key-value syntax.</span></td>
+  </tr><tr class="class private">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.numpydoc._SphinxSection.html">_SphinxSection</a></code></td>
+    <td><span>Base parser for numpydoc sections with sphinx-style syntax.</span></td>
+  </tr>
+</table>
+        
+
+          
+      </div>
+
+      <div id="childList">
+
+        <div class="basefunction private">
+  
+  <a name="docstring_parser.numpydoc._pairwise">
+    
+  </a>
+  <a name="_pairwise">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_pairwise</span>(iterable, end=None):
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L22">
+      
+      (source)
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName">Parameters</td><td class="fieldArg">iterable</td><td><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/typing.html#typing.Iterable">T.Iterable</a></code>)</td></tr><tr><td></td><td class="fieldArg">end</td><td><span class="undocumented">Undocumented</span></td></tr><tr class="fieldStart"><td class="fieldName">Returns</td><td colspan="2"><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/typing.html#typing.Iterable">T.Iterable</a></code>)</td></tr></table></div>
+  </div>
+</div><div class="basefunction private">
+  
+  <a name="docstring_parser.numpydoc._clean_str">
+    
+  </a>
+  <a name="_clean_str">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">_clean_str</span>(string):
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L28">
+      
+      (source)
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName">Parameters</td><td class="fieldArg">string</td><td><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>)</td></tr><tr class="fieldStart"><td class="fieldName">Returns</td><td colspan="2"><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/typing.html#typing.Optional">T.Optional</a>[<a href="https://docs.python.org/3/library/stdtypes.html#str">str</a>]</code>)</td></tr></table></div>
+  </div>
+</div><div class="basevariable">
+  
+  <a name="docstring_parser.numpydoc.KV_REGEX">
+    
+  </a>
+  <a name="KV_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">KV_REGEX</span> =
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L34">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  <a name="docstring_parser.numpydoc.PARAM_KEY_REGEX">
+    
+  </a>
+  <a name="PARAM_KEY_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">PARAM_KEY_REGEX</span> =
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L36">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  <a name="docstring_parser.numpydoc.PARAM_OPTIONAL_REGEX">
+    
+  </a>
+  <a name="PARAM_OPTIONAL_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">PARAM_OPTIONAL_REGEX</span> =
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L38">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  <a name="docstring_parser.numpydoc.PARAM_DEFAULT_REGEX">
+    
+  </a>
+  <a name="PARAM_DEFAULT_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">PARAM_DEFAULT_REGEX</span> =
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L42">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  <a name="docstring_parser.numpydoc.RETURN_KEY_REGEX">
+    
+  </a>
+  <a name="RETURN_KEY_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">RETURN_KEY_REGEX</span> =
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L46">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  <a name="docstring_parser.numpydoc.DEFAULT_SECTIONS">
+    
+  </a>
+  <a name="DEFAULT_SECTIONS">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">DEFAULT_SECTIONS</span> =
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L222">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  <a name="docstring_parser.numpydoc.parse">
+    
+  </a>
+  <a name="parse">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">parse</span>(text):
+    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/b02b5fb8e3723c52b1045748a697e2807859ae1b/docstring_parser/numpydoc.py#L327">
+      
+      (source)
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div>Parse the numpy-style docstring into its components.<table class="fieldTable"><tr class="fieldStart"><td class="fieldName">Parameters</td><td class="fieldArg">text</td><td><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>)</td></tr><tr class="fieldStart"><td class="fieldName">Returns</td><td colspan="2">parsed docstring (type: <code>Docstring</code>)</td></tr></table></div>
+  </div>
+</div>
+
+      </div>
+      <address>
+        <a href="index.html">API Documentation</a> for <a href="https://github.com/tristanlatr/docstring_parser">docstring_parser</a>, generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a> 21.2.2 at 2021-06-17 17:25:10.
+      </address>
+
+    </div>
+
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
