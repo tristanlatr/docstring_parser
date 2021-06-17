@@ -2,28 +2,59 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
           "DTD/xhtml1-strict.dtd">
 <html>
-  <head>
-    <title>docstring_parser.google : API documentation</title>
+  
 
+  <head>
+    
+    <title>docstring_parser.google</title>
+    <meta name="generator" content="pydoctor 21.2.2"> 
+        
+    </meta>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75" />
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="apidocs.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
   <body>
 
+    
+
     <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header navbar-brand">
-          <a href="https://github.com/tristanlatr/docstring_parser">docstring_parser</a>
-          <a href="index.html">API Documentation</a>
-        </div>
+  
+  <div class="container">
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+          <span class="navbar-brand">
+            <a href="https://github.com/tristanlatr/docstring_parser" class="projecthome">docstring_parser</a> <a href="index.html">API Documentation</a>
+          </span>
+
+          <a href="moduleIndex.html">
+            Modules
+          </a>
+
+          <a href="classIndex.html">
+            Classes
+          </a>
+
+          <a href="nameIndex.html">
+            Names
+          </a>
       </div>
-    </nav>
+
+    </div>
+  </div>
+</nav>
+
+    
 
     <div class="container">
 
       <div class="page-header">
-        <h1 class="module"><code><code><a href="docstring_parser.html">docstring_parser</a></code>.<code><a href="docstring_parser.google.html">google</a></code></code></h1>
+        <h1 class="module"><code><code><a href="docstring_parser.html">docstring_parser</a></code><wbr></wbr>.<code><a href="docstring_parser.google.html">google</a></code></code></h1>
         <div id="showPrivate">
           <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
         </div>
@@ -34,7 +65,7 @@
       </div>
 
       <div class="extrasDocstring">
-        <a href="https://github.com/tristanlatr/docstring_parser/tree/22d8b6d6d84ccfb2b2149bcacc0b8d209fd4e190/docstring_parser/google.py">(source)</a>
+        <a href="https://github.com/tristanlatr/docstring_parser/tree/198b7e6372a09b705286be52d3638e7bc39e1795/docstring_parser/google.py" class="sourceLink">(source)</a>
         <p></p>
       </div>
 
@@ -43,22 +74,33 @@
       </div>
 
       <div id="splitTables">
-        <table class="children sortable" id="id15">
+        <table class="children sortable" id="id4">
+  
   
   <tr class="class">
     
     <td>Class</td>
-    <td><code><a href="docstring_parser.google.SectionType.html">SectionType</a></code></td>
-    <td><span>Types of sections.</span></td>
+    <td><code><a href="docstring_parser.google.GoogleParser.html">GoogleParser</a></code></td>
+    <td><span class="undocumented">No class docstring; 0/3 instance variable, 4/7 methods documented</span></td>
   </tr><tr class="class">
     
     <td>Class</td>
     <td><code><a href="docstring_parser.google.Section.html">Section</a></code></td>
     <td><span>A docstring section.</span></td>
+  </tr><tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="docstring_parser.google.SectionType.html">SectionType</a></code></td>
+    <td><span>Types of sections.</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#parse">parse</a></code></td>
+    <td><span>Parse the Google-style docstring into its components.</span></td>
   </tr><tr class="variable">
     
     <td>Variable</td>
-    <td><code><a href="#GOOGLE_TYPED_ARG_REGEX">GOOGLE_TYPED_ARG_REGEX</a></code></td>
+    <td><code><a href="#DEFAULT_SECTIONS">DEFAULT_SECTIONS</a></code></td>
     <td><span class="undocumented">Undocumented</span></td>
   </tr><tr class="variable">
     
@@ -68,23 +110,13 @@
   </tr><tr class="variable">
     
     <td>Variable</td>
-    <td><code><a href="#MULTIPLE_PATTERN">MULTIPLE_PATTERN</a></code></td>
+    <td><code><a href="#GOOGLE_TYPED_ARG_REGEX">GOOGLE_TYPED_ARG_REGEX</a></code></td>
     <td><span class="undocumented">Undocumented</span></td>
   </tr><tr class="variable">
     
     <td>Variable</td>
-    <td><code><a href="#DEFAULT_SECTIONS">DEFAULT_SECTIONS</a></code></td>
+    <td><code><a href="#MULTIPLE_PATTERN">MULTIPLE_PATTERN</a></code></td>
     <td><span class="undocumented">Undocumented</span></td>
-  </tr><tr class="class">
-    
-    <td>Class</td>
-    <td><code><a href="docstring_parser.google.GoogleParser.html">GoogleParser</a></code></td>
-    <td><span class="undocumented">No class docstring; 0/3 instance variables, 4/7 methods documented</span></td>
-  </tr><tr class="function">
-    
-    <td>Function</td>
-    <td><code><a href="#parse">parse</a></code></td>
-    <td><span>Parse the Google-style docstring into its components.</span></td>
   </tr>
 </table>
         
@@ -94,91 +126,8 @@
 
       <div id="childList">
 
-        <div class="basevariable">
+        <div class="basefunction">
   
-  <a name="docstring_parser.google.GOOGLE_TYPED_ARG_REGEX">
-    
-  </a>
-  <a name="GOOGLE_TYPED_ARG_REGEX">
-    
-  </a>
-  <div class="functionHeader">
-    
-    <span class="py-defname">GOOGLE_TYPED_ARG_REGEX</span> =
-    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/22d8b6d6d84ccfb2b2149bcacc0b8d209fd4e190/docstring_parser/google.py#L41">
-      
-      (source)
-    </a>
-  </div>
-  <div class="functionBody">
-    
-    
-    <div><p class="undocumented">Undocumented</p></div>
-  </div>
-</div><div class="basevariable">
-  
-  <a name="docstring_parser.google.GOOGLE_ARG_DESC_REGEX">
-    
-  </a>
-  <a name="GOOGLE_ARG_DESC_REGEX">
-    
-  </a>
-  <div class="functionHeader">
-    
-    <span class="py-defname">GOOGLE_ARG_DESC_REGEX</span> =
-    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/22d8b6d6d84ccfb2b2149bcacc0b8d209fd4e190/docstring_parser/google.py#L42">
-      
-      (source)
-    </a>
-  </div>
-  <div class="functionBody">
-    
-    
-    <div><p class="undocumented">Undocumented</p></div>
-  </div>
-</div><div class="basevariable">
-  
-  <a name="docstring_parser.google.MULTIPLE_PATTERN">
-    
-  </a>
-  <a name="MULTIPLE_PATTERN">
-    
-  </a>
-  <div class="functionHeader">
-    
-    <span class="py-defname">MULTIPLE_PATTERN</span> =
-    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/22d8b6d6d84ccfb2b2149bcacc0b8d209fd4e190/docstring_parser/google.py#L43">
-      
-      (source)
-    </a>
-  </div>
-  <div class="functionBody">
-    
-    
-    <div><p class="undocumented">Undocumented</p></div>
-  </div>
-</div><div class="basevariable">
-  
-  <a name="docstring_parser.google.DEFAULT_SECTIONS">
-    
-  </a>
-  <a name="DEFAULT_SECTIONS">
-    
-  </a>
-  <div class="functionHeader">
-    
-    <span class="py-defname">DEFAULT_SECTIONS</span> =
-    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/22d8b6d6d84ccfb2b2149bcacc0b8d209fd4e190/docstring_parser/google.py#L45">
-      
-      (source)
-    </a>
-  </div>
-  <div class="functionBody">
-    
-    
-    <div><p class="undocumented">Undocumented</p></div>
-  </div>
-</div><div class="basefunction">
   
   <a name="docstring_parser.google.parse">
     
@@ -189,7 +138,7 @@
   <div class="functionHeader">
     
     <span class="py-keyword">def</span> <span class="py-defname">parse</span>(text):
-    <a class="functionSourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/22d8b6d6d84ccfb2b2149bcacc0b8d209fd4e190/docstring_parser/google.py#L281">
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/198b7e6372a09b705286be52d3638e7bc39e1795/docstring_parser/google.py#L281">
       
       (source)
     </a>
@@ -197,16 +146,109 @@
   <div class="docstring functionBody">
     
     
-    <div>Parse the Google-style docstring into its components.<table class="fieldTable"><tr class="fieldStart"><td class="fieldName">Parameters</td><td class="fieldArg">text</td><td><span class="undocumented">Undocumented</span> (type: <code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code>)</td></tr><tr class="fieldStart"><td class="fieldName">Returns</td><td colspan="2">parsed docstring (type: <code>Docstring</code>)</td></tr></table></div>
+    <div>Parse the Google-style docstring into its components.<table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">text:</span><code><a href="https://docs.python.org/3/library/stdtypes.html#str">str</a></code></td><td class="fieldArgDesc"><span class="undocumented">Undocumented</span></td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td class="fieldArgContainer"><code>Docstring</code></td><td class="fieldArgDesc">parsed docstring</td></tr></table></div>
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="docstring_parser.google.DEFAULT_SECTIONS">
+    
+  </a>
+  <a name="DEFAULT_SECTIONS">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">DEFAULT_SECTIONS</span> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/198b7e6372a09b705286be52d3638e7bc39e1795/docstring_parser/google.py#L45">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="docstring_parser.google.GOOGLE_ARG_DESC_REGEX">
+    
+  </a>
+  <a name="GOOGLE_ARG_DESC_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">GOOGLE_ARG_DESC_REGEX</span> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/198b7e6372a09b705286be52d3638e7bc39e1795/docstring_parser/google.py#L42">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="docstring_parser.google.GOOGLE_TYPED_ARG_REGEX">
+    
+  </a>
+  <a name="GOOGLE_TYPED_ARG_REGEX">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">GOOGLE_TYPED_ARG_REGEX</span> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/198b7e6372a09b705286be52d3638e7bc39e1795/docstring_parser/google.py#L41">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basevariable">
+  
+  
+  <a name="docstring_parser.google.MULTIPLE_PATTERN">
+    
+  </a>
+  <a name="MULTIPLE_PATTERN">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">MULTIPLE_PATTERN</span> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/198b7e6372a09b705286be52d3638e7bc39e1795/docstring_parser/google.py#L43">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
   </div>
 </div>
 
       </div>
-      <address>
-        <a href="index.html">API Documentation</a> for <a href="https://github.com/tristanlatr/docstring_parser">docstring_parser</a>, generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a> 21.2.2 at 2021-06-17 17:44:22.
-      </address>
-
     </div>
+
+    <footer class="navbar navbar-default">
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for <a href="https://github.com/tristanlatr/docstring_parser" class="projecthome">docstring_parser</a>,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    21.2.2 at 2021-06-17 17:59:22.
+  </div>
+</footer>
 
     <script src="pydoctor.js" type="text/javascript"></script>
 
