@@ -6,7 +6,7 @@
 
   <head>
     
-    <title>docstring_parser.numpydoc.YieldsSection</title>
+    <title>docstring_parser.RenderingStyle</title>
     <meta name="generator" content="pydoctor 22.3.0.dev0"> 
         
     </meta>
@@ -131,7 +131,7 @@
     <div class="container">
 
       <div class="page-header">
-        <h1 class="class"><code><code><a href="index.html" class="internal-link">docstring_parser</a></code><wbr></wbr>.<code><a href="docstring_parser.numpydoc.html" class="internal-link" title="docstring_parser.numpydoc">numpydoc</a></code><wbr></wbr>.<code><a href="docstring_parser.numpydoc.YieldsSection.html" class="internal-link" title="docstring_parser.numpydoc.YieldsSection">YieldsSection</a></code></code></h1>
+        <h1 class="class"><code><code><a href="index.html" class="internal-link">docstring_parser</a></code><wbr></wbr>.<code><a href="docstring_parser.RenderingStyle.html" class="internal-link" title="docstring_parser.RenderingStyle">RenderingStyle</a></code></code></h1>
         <div id="showPrivate">
           <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
         </div>
@@ -142,111 +142,110 @@
       </div>
 
       <div class="extrasDocstring">
-        <p><code><span class="py-keyword">class</span> <span class="py-defname">YieldsSection</span>(<a href="docstring_parser.numpydoc.ReturnsSection.html" class="internal-link" title="docstring_parser.numpydoc.ReturnsSection">ReturnsSection</a>): <a href="https://github.com/tristanlatr/docstring_parser/tree/2a54193eb1f9fdeeb47738252b55dd728457d0bb/docstring_parser/numpydoc.py#L205" class="sourceLink">(source)</a></code></p>
-        <p><a href="classIndex.html#docstring_parser.numpydoc.YieldsSection">View In Hierarchy</a></p>
+        <p><code><span class="py-keyword">class</span> <span class="py-defname">RenderingStyle</span>(<a href="https://docs.python.org/3/library/enum.html#enum.Enum" class="intersphinx-link" title="enum.Enum">enum.Enum</a>): <a href="https://github.com/tristanlatr/docstring_parser/tree/2a54193eb1f9fdeeb47738252b55dd728457d0bb/docstring_parser/common.py#L35" class="sourceLink">(source)</a></code></p>
+        <p><a href="classIndex.html#docstring_parser.RenderingStyle">View In Hierarchy</a></p>
       </div>
 
       <div class="moduleDocstring">
-        <div>Parser for numpydoc generator "yields" sections.</div>
+        <div>Rendering style when unparsing parsed docstrings.</div>
       </div>
 
       <div id="splitTables">
-        <table class="children sortable" id="id25">
+        <table class="children sortable" id="id54">
   
   
-  <tr class="classvariable">
+  <tr class="constant">
     
-    <td>Class Variable</td>
-    <td><code><a href="#is_generator" class="internal-link" title="docstring_parser.numpydoc.YieldsSection.is_generator">is​_generator</a></code></td>
+    <td>Constant</td>
+    <td><code><a href="#CLEAN" class="internal-link" title="docstring_parser.RenderingStyle.CLEAN">CLEAN</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#COMPACT" class="internal-link" title="docstring_parser.RenderingStyle.COMPACT">COMPACT</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="constant">
+    
+    <td>Constant</td>
+    <td><code><a href="#EXPANDED" class="internal-link" title="docstring_parser.RenderingStyle.EXPANDED">EXPANDED</a></code></td>
     <td><span class="undocumented">Undocumented</span></td>
   </tr>
 </table>
         
-          <p class="inheritedFrom">
-            Inherited from <code><a href="docstring_parser.numpydoc.ReturnsSection.html" class="internal-link" title="docstring_parser.numpydoc.ReturnsSection">ReturnsSection</a></code>:
-          </p>
-          <table class="children sortable" id="id26">
-  
-  
-  <tr class="basemethod private">
-    
-    <td>Method</td>
-    <td><code><a href="docstring_parser.numpydoc.ReturnsSection.html#_parse_item" class="internal-link" title="docstring_parser.numpydoc.ReturnsSection._parse_item">_parse​_item</a></code></td>
-    <td><span class="undocumented">Undocumented</span></td>
-  </tr>
-</table>
-          
-          <p class="inheritedFrom">
-            Inherited from <code><a href="docstring_parser.numpydoc._KVSection.html" class="internal-link" title="docstring_parser.numpydoc._KVSection">_KVSection</a></code> (via <code><a href="docstring_parser.numpydoc.ReturnsSection.html" class="internal-link" title="docstring_parser.numpydoc.ReturnsSection">ReturnsSection</a></code>):
-          </p>
-          <table class="children sortable" id="id27">
-  
-  
-  <tr class="basemethod">
-    
-    <td>Method</td>
-    <td><code><a href="docstring_parser.numpydoc._KVSection.html#parse" class="internal-link" title="docstring_parser.numpydoc._KVSection.parse">parse</a></code></td>
-    <td>Parse <tt class="rst-docutils literal">DocstringMeta</tt> objects from the body of this section.</td>
-  </tr>
-</table>
-          
-          <p class="inheritedFrom">
-            Inherited from <code><a href="docstring_parser.numpydoc.Section.html" class="internal-link" title="docstring_parser.numpydoc.Section">Section</a></code> (via <code><a href="docstring_parser.numpydoc.ReturnsSection.html" class="internal-link" title="docstring_parser.numpydoc.ReturnsSection">ReturnsSection</a></code>, <code><a href="docstring_parser.numpydoc._KVSection.html" class="internal-link" title="docstring_parser.numpydoc._KVSection">_KVSection</a></code>):
-          </p>
-          <table class="children sortable" id="id28">
-  
-  
-  <tr class="basemethod">
-    
-    <td>Method</td>
-    <td><code><a href="docstring_parser.numpydoc.Section.html#__init__" class="internal-link" title="docstring_parser.numpydoc.Section.__init__">__init__</a></code></td>
-    <td><span class="undocumented">Undocumented</span></td>
-  </tr><tr class="baseinstancevariable">
-    
-    <td>Instance Variable</td>
-    <td><code><a href="docstring_parser.numpydoc.Section.html#key" class="internal-link" title="docstring_parser.numpydoc.Section.key">key</a></code></td>
-    <td><span class="undocumented">Undocumented</span></td>
-  </tr><tr class="baseinstancevariable">
-    
-    <td>Instance Variable</td>
-    <td><code><a href="docstring_parser.numpydoc.Section.html#title" class="internal-link" title="docstring_parser.numpydoc.Section.title">title</a></code></td>
-    <td><span class="undocumented">Undocumented</span></td>
-  </tr><tr class="baseproperty">
-    
-    <td>Property</td>
-    <td><code><a href="docstring_parser.numpydoc.Section.html#title_pattern" class="internal-link" title="docstring_parser.numpydoc.Section.title_pattern">title​_pattern</a></code></td>
-    <td>Regular expression pattern matching this section's header.</td>
-  </tr>
-</table>
-          
 
           
       </div>
 
       <div id="childList">
 
-        <div class="baseclassvariable">
+        <div class="baseconstant">
   
   
-  <a name="docstring_parser.numpydoc.YieldsSection.is_generator">
+  <a name="docstring_parser.RenderingStyle.CLEAN">
     
   </a>
-  <a name="is_generator">
+  <a name="CLEAN">
     
   </a>
   <div class="functionHeader">
     
-    <span class="py-defname">is_generator</span>: <code><a href="https://docs.python.org/3/library/functions.html#bool" class="intersphinx-link">bool</a></code> =
-    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/2a54193eb1f9fdeeb47738252b55dd728457d0bb/docstring_parser/numpydoc.py#L208">
+    <span class="py-defname">CLEAN</span>: <code><a href="https://docs.python.org/3/library/functions.html#int" class="intersphinx-link">int</a></code> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/2a54193eb1f9fdeeb47738252b55dd728457d0bb/docstring_parser/common.py#L39">
       
       (source)
     </a>
   </div>
   <div class="functionBody">
-    <div class="interfaceinfo">overrides <code><a href="docstring_parser.numpydoc.ReturnsSection.html#is_generator" class="internal-link">docstring_parser.numpydoc.ReturnsSection.is_generator</a></code></div>
+    
     
     <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>2</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="docstring_parser.RenderingStyle.COMPACT">
     
+  </a>
+  <a name="COMPACT">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">COMPACT</span>: <code><a href="https://docs.python.org/3/library/functions.html#int" class="intersphinx-link">int</a></code> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/2a54193eb1f9fdeeb47738252b55dd728457d0bb/docstring_parser/common.py#L38">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>1</code></pre></td></tr></table>
+  </div>
+</div><div class="baseconstant">
+  
+  
+  <a name="docstring_parser.RenderingStyle.EXPANDED">
+    
+  </a>
+  <a name="EXPANDED">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">EXPANDED</span>: <code><a href="https://docs.python.org/3/library/functions.html#int" class="intersphinx-link">int</a></code> =
+    <a class="sourceLink" href="https://github.com/tristanlatr/docstring_parser/tree/2a54193eb1f9fdeeb47738252b55dd728457d0bb/docstring_parser/common.py#L40">
+      
+      (source)
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    <table class="valueTable"><tr class="fieldStart"><td class="fieldName">Value</td></tr><tr><td><pre class="constant-value"><code>3</code></pre></td></tr></table>
   </div>
 </div>
 
